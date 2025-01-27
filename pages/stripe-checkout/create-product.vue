@@ -28,6 +28,7 @@ const handleFormSubmit = async function () {
     console.log(res);
     return res;
   });
+  await navigateTo("/stripe-checkout");
 };
 </script>
 
